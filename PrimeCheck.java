@@ -1,0 +1,14 @@
+//using PrimePackage
+import prime.PrimePackage;
+public class PrimeCheck{
+	public static void main(String[] args){
+		PrimePackage p=new PrimePackage();
+		int[] numbers={2,3,4,5,6,7,8,9};
+		System.out.println("prime number in the given list");
+		for(int num : numbers){
+			if(p.prime(num)){
+				System.out.println(num);
+			}
+		}
+	}
+}
